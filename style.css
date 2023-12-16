@@ -1,0 +1,166 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: verdana;
+}
+
+
+.navigasi {
+    background-color: #3b4997;
+    width: 100%;
+    height: 60px;
+    color: white;
+    position: fixed;
+}
+
+
+.logo{
+    float:left;
+padding-top: 25px;
+padding-bottom: 25px;
+padding-left: 35px;
+}
+
+
+.menu {
+    margin-left: 800px;
+    padding-top: 30px;
+}
+
+
+.menu ul li{
+    list-style: none;
+    display: inline-block;
+    margin-right: 50px;
+}
+
+
+.menu ul li a{
+    text-decoration: none;
+    color:white;
+}
+
+.menu ul li a:hover{
+    color:lightskyblue;
+    font-style: italic;
+}
+
+
+.banner{
+    background-color: #3b5999;
+    height:700px;
+    text-align: center;
+}
+
+.banner img{
+    banner-radius:250px;
+    height:220px;
+    border:15px solid silver;
+    margin-top: 100px;
+}
+
+
+.banner h1 {
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+
+.banner button{
+    margin-top: 90px;
+    padding: 15px;
+    width: 300px;
+    border-radius:50px;
+    border:none;
+}
+
+.banner button:hover{
+    background-color: #3b5999;
+    border:1px solid silver;
+    color:silver;
+
+}
+
+h1 span:before {
+    content:'';
+    animation: gerak infinite 8s ease;
+    transfore: translateY(-50%)
+    color: lightskyblue;
+    font-family:70px;
+}
+
+
+@keyframes gerak {
+    0%{
+        content: 'Selamat Datang';
+    }
+
+    50%{
+        content:'Saya Suci Jamidi';
+    }
+
+    100%{
+        content:'Terimakasih Sudah Singgah Guyss!';
+    }
+    
+}
+
+.box-pendidikan{
+    text-align:center;
+    color: #4d4444;
+    margin-top: 90px;
+    align-content: center;
+
+}
+
+
+.box-satu,.box-dua,.box-tiga,.box-empat{
+    width: 400px;
+    height: 320px;
+    text-align: center;
+    padding: 20px 20px;
+    margin: 150px 10px 10px 170px;
+    border-radius: 50px;
+    float: left; 
+    align-content: center;
+}
+
+
+.box-satu:hover,.box-dua:hover,.box-tiga:hover,.box-empat:hover{
+    background-color: #3b5999;
+    color: white;
+}
+
+.box-tiga img{
+    width: 200px;
+    height: 200px;
+}
+
+
+.hobi{
+    width: 500px;
+    height: 400px;
+    margin-left: 50px;
+    margin-bottom: 10px;
+    text-align: center;
+    align-content:center;
+    padding: 30px;
+    border-radius: 50px;
+    float:left;
+    
+}
+
+.hobi img{
+    width:300px;
+    height: 300px;
+}
+
+.Media sosial{
+    width: 300px;
+    height: 320px;
+}
+
+.Media sosial img{
+    width:300px;
+    height: 300px;
+}
